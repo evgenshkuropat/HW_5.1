@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.text-center {
+    text-align: center;
+}
+section:not(.content-block), .item {
+    padding: 10px 20px 30px;
+    border: 1px solid lightgray;
+    background-color: white;
+    /*margin-bottom: 30px;*/
+}
+.item {
+    width: 25%;
+    display: inline-block;
+    color: black;
+    font-size: 34px;
+    font-family: "Calibri Light", sans-serif;
+    font-weight:bold;
+    text-align: center;
+}
+.wrapper {
+    font-size: 0;
+}
